@@ -1,0 +1,50 @@
+.frogBox {
+    background-color: #e2efff;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 65px;
+    padding-bottom: 100px;
+}
+
+.frogtributes {
+    padding: 25px;
+    background-color: #ededed;
+    border-radius: 10px;
+}
+
+.dnaDiv {
+    position: absolute;
+    left:20px;
+    bottom: 5px;
+
+}
+
+.mini {
+    transform: scale(0.75);
+}
+
+.mini:hover {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+  [type=checkbox] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* tile STYLES */
+  [type=checkbox] + .frogBox {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=checkbox]:checked + .frogBox {
+    outline: 2px solid #f00;
+    background-color: black;
+    color: blanchedalmond;
+  }
+
+

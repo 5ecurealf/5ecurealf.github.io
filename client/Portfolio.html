@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academy kitties </title>
+  <script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <script src="assets/bootstrap/js/popper.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/web3.min.js"></script>
+  <script src="./abiFrogContract.js"></script>
+  <script src="./abiMarketPlaceContract.js"></script>
+
+  
+
+  <link rel="stylesheet" href="assets/css/mystyle.css">
+  <link rel="stylesheet" href="assets/css/frogs.css">
+  <link rel="stylesheet" href="assets/css/colors.css">
+  <link rel="stylesheet" href="assets/css/factory.css">
+  <link rel="stylesheet" href="assets/css/frontend.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/potatoStyle.css">
+  
+</head>
+  <body>
+    <div class="potato">
+      <!-- partial:index.partial.html -->
+      <h1>ALFROGS <span>by Alfie</span></h1>
+    
+      <input id="burger" type="checkbox" />
+    
+      <label id = "burgerLabel" for="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </label>
+    
+      <nav>    
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./Factory.html">Factory</a></li>
+          <li><a href="./MarketPlace.html">MarketPlace</a></li>
+        </ul>  
+      </nav>
+      <!-- partial -->
+    </div>
+    <div class="container p-5" style="margin-top: 100px;margin-bottom: 10vh;">
+      <div align="center">
+      <h1 class="c-white">Portfolio</h1>
+      <p class="c-white">This is the portolio of frogs that you own. Select frogs to Breed or Sell.</p>
+    </div>
+    <div class="container">
+        <div class="row ">
+        </div>     
+    </div>
+    <div class="order-last portfolioButtonDiv">
+      <button class="portfolioButton breedFrogButton button ">Breed Frog</button> 
+    </div>
+    <!-- Trigger/Open The Modal -->
+    <div class="order-last portfolioButtonDiv">
+      <button class="portfolioButton button " id="myBtn">Sell Frog</button> 
+    </div>
+    
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class = "priceContainer">
+        <label id= "priceLabel">Price: </label>
+        <input type="number" id="priceWei" style="width: 200px;" >
+        <label id= "priceLabel">Wei</label>
+        <button class="button" id = "sellButton">Set Offer</button>
+      </div>
+    </div>
+
+  </div>
+
+
+    </div>    
+     <!-- Frog tab -->
+     <div id="snackbar">Some text </div>
+    <footer align="left">
+        <p>Created by Alfie 2022</p>
+    </footer>
+
+  </body>
+  
+  <script src="assets/js/colors.js"></script>
+  <script src="assets/js/frogSettings.js"></script>
+  <script src="assets/js/frogFactory.js"></script>
+  <script src="assets/js/frontend_buttons.js"></script>
+  <script src="assets/js/loadPortfolio.js"></script>
+
+</html>
