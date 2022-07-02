@@ -10,8 +10,8 @@ var froggyContractInstance;
 var marketPlaceContractInstance;
 
 // rinkeby test network 
-var frogContractAddress = "0xa6c023E43C608344d291c9d195c362410Ec111C9"; //test network address
-var marketPlaceContractAddress = "0xe30689CF5b5e3f7b8dEf666441A13186d19A5EFb";
+var frogContractAddress = "0x676B5852c659394b76111A63A0011dbda17E2E39"; //test network address
+var marketPlaceContractAddress = "0xdd5261330190f6BEe76662B93be1B6D1D5FE3ec4";
 
 // var frogContractAddress = "0xfF9e3fFeb7a7318D943cb005572e7175043A5BCC"; //change frogContractAddress variable whenever deploying a new froggyContractInstance of the contract
 // var marketPlaceContractAddress = "0xb93dAD7B67Da8bAc7C5669c645b8042eF1c89033";

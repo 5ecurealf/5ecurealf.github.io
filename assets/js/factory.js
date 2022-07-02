@@ -7,7 +7,7 @@ var instance;
 
 var user;
 
-var frogContractAddress = "0xa6c023E43C608344d291c9d195c362410Ec111C9"; //2nd deployment to test network 
+var frogContractAddress = "0x676B5852c659394b76111A63A0011dbda17E2E39"; //2nd deployment to test network 
 // var frogContractAddress = "0x282c870aA2FD6fE5fA3e616e0bE7C45A8071fd81"; //change frogContractAddress variable whenever deploying a new froggyContractInstance of the contract
 
 
